@@ -1,0 +1,174 @@
+ROBOT RUNTIME LOG
+=================
+[2026-08-05 20:56:42] START | personality=BUBBLY
+[2026-08-05 20:56:42] PERSONALITY_TRAITS | E=0.90 | A=0.90 | O=0.90 | N=0.20 | C=0.20
+[2026-08-05 20:56:42] STATE_CHANGE | PATROL -> IDLE | reason=deprecated_patrol_redirect
+[2026-08-05 20:56:42] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:42] SONAR | front_left=115.0 cm | front_center=131.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:42] INTERACTION_WILL_ZONE_CHANGED | MID -> HIGH | will=0.55 | target=0.98
+[2026-08-05 20:56:42] STATE_CHANGE | IDLE -> INVESTIGATE | reason=idle_far_object
+[2026-08-05 20:56:42] INVESTIGATION_STARTED | direction=LEFT | reason=idle_far_object
+[2026-08-05 20:56:42] BRAIN_ERROR | UnboundLocalError: local variable 'target_vx' referenced before assignment
+[2026-08-05 20:56:42] TRIGGER | emotion=CAUTIOUS_1 | state=INVESTIGATE | person_in_frame=False | face_in_frame=False | camera_emotion=NEUTRAL | interaction_will=0.60 | front_left=115.0 cm | front_center=131.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:43] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:43] SONAR | front_left=115.0 cm | front_center=135.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:44] INVESTIGATE_PHASE | SCAN_CAMERA | direction=LEFT
+[2026-08-05 20:56:44] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:44] SONAR | front_left=115.0 cm | front_center=131.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:45] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:45] SONAR | front_left=115.0 cm | front_center=136.0 cm | front_right=300.0 cm | back=187.0 cm | near=False | far=True
+[2026-08-05 20:56:46] TRIGGER | emotion=CAUTIOUS_1 | state=INVESTIGATE | person_in_frame=False | face_in_frame=False | camera_emotion=NEUTRAL | interaction_will=0.96 | front_left=115.0 cm | front_center=136.0 cm | front_right=300.0 cm | back=187.0 cm | near=False | far=True
+[2026-08-05 20:56:46] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:46] SONAR | front_left=115.0 cm | front_center=134.0 cm | front_right=300.0 cm | back=163.0 cm | near=False | far=True
+[2026-08-05 20:56:47] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:47] SONAR | front_left=115.0 cm | front_center=136.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:48] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:48] SONAR | front_left=115.0 cm | front_center=135.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:49] TRIGGER | emotion=CAUTIOUS_1 | state=INVESTIGATE | person_in_frame=False | face_in_frame=False | camera_emotion=NEUTRAL | interaction_will=0.96 | front_left=115.0 cm | front_center=135.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:49] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:49] SONAR | front_left=114.0 cm | front_center=132.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:51] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:51] SONAR | front_left=114.0 cm | front_center=131.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:52] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:52] SONAR | front_left=114.0 cm | front_center=134.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:52] TRIGGER | emotion=CAUTIOUS_1 | state=INVESTIGATE | person_in_frame=False | face_in_frame=False | camera_emotion=NEUTRAL | interaction_will=0.95 | front_left=114.0 cm | front_center=135.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:53] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:53] SONAR | front_left=113.0 cm | front_center=133.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:54] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:54] SONAR | front_left=81.0 cm | front_center=126.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:55] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:55] SONAR | front_left=87.0 cm | front_center=107.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:55] TRIGGER | emotion=CAUTIOUS_1 | state=INVESTIGATE | person_in_frame=False | face_in_frame=False | camera_emotion=NEUTRAL | interaction_will=0.98 | front_left=87.0 cm | front_center=107.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:56] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:56] SONAR | front_left=95.0 cm | front_center=103.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:57] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:57] SONAR | front_left=110.0 cm | front_center=116.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:57] INVESTIGATE_PHASE | CENTER_FACE | person_found=True
+[2026-08-05 20:56:57] INVESTIGATION_FINISHED | result=PERSON | direction=LEFT | distance=114.0 | will=0.94
+[2026-08-05 20:56:57] STATE_CHANGE | INVESTIGATE -> INTERACT | reason=investigate_person_will_high
+[2026-08-05 20:56:58] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NONE | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:58] SONAR | front_left=114.0 cm | front_center=116.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:56:59] CAMERA | person_in_frame=False | face_in_frame=False | emotion=NONE | face_x=0.5 | face_y=0.5
+[2026-08-05 20:56:59] SONAR | front_left=115.0 cm | front_center=114.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:00] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:00] SONAR | front_left=115.0 cm | front_center=111.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:01] CAMERA | person_in_frame=True | face_in_frame=True | emotion=ANGRY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:01] SONAR | front_left=114.0 cm | front_center=106.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:01] BRAIN_ERROR | TypeError: '>' not supported between instances of 'str' and 'float'
+[2026-08-05 20:57:01] BRAIN_ERROR | TypeError: '>' not supported between instances of 'str' and 'float'
+[2026-08-05 20:57:01] BRAIN_ERROR | TypeError: '>' not supported between instances of 'str' and 'float'
+[2026-08-05 20:57:01] BRAIN_ERROR | TypeError: '>' not supported between instances of 'str' and 'float'
+[2026-08-05 20:57:01] BRAIN_ERROR | TypeError: '>' not supported between instances of 'str' and 'float'
+[2026-08-05 20:57:01] BRAIN_ERROR | TypeError: '>' not supported between instances of 'str' and 'float'
+[2026-08-05 20:57:01] TRIGGER | emotion=TRUST_2 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=0.80 | front_left=104.0 cm | front_center=106.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:02] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:02] SONAR | front_left=98.0 cm | front_center=105.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:03] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:03] SONAR | front_left=92.0 cm | front_center=94.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:04] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:04] SONAR | front_left=92.0 cm | front_center=94.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:05] TRIGGER | emotion=TRUST_2 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=0.99 | front_left=92.0 cm | front_center=97.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:05] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:05] SONAR | front_left=92.0 cm | front_center=96.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:06] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:06] SONAR | front_left=93.0 cm | front_center=98.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:07] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:07] SONAR | front_left=93.0 cm | front_center=94.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:08] TRIGGER | emotion=TRUST_2 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=NEUTRAL | interaction_will=1.00 | front_left=93.0 cm | front_center=94.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:08] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:08] SONAR | front_left=93.0 cm | front_center=93.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:09] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:09] SONAR | front_left=93.0 cm | front_center=93.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:10] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:10] SONAR | front_left=101.0 cm | front_center=100.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:11] TRIGGER | emotion=TRUST_2 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=NEUTRAL | interaction_will=1.00 | front_left=93.0 cm | front_center=96.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:11] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:11] SONAR | front_left=96.0 cm | front_center=116.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:12] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:12] SONAR | front_left=114.0 cm | front_center=131.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:13] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:13] SONAR | front_left=114.0 cm | front_center=115.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:14] TRIGGER | emotion=HAPPY_3 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=1.00 | front_left=107.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:14] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:14] SONAR | front_left=89.0 cm | front_center=91.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:15] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:15] SONAR | front_left=81.0 cm | front_center=94.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:16] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:16] SONAR | front_left=81.0 cm | front_center=89.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:17] TRIGGER | emotion=HAPPY_3 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=1.00 | front_left=81.0 cm | front_center=88.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:17] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:17] SONAR | front_left=81.0 cm | front_center=92.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:18] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:18] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:19] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:19] SONAR | front_left=81.0 cm | front_center=91.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:20] TRIGGER | emotion=HAPPY_3 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=1.00 | front_left=81.0 cm | front_center=91.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:20] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:20] SONAR | front_left=81.0 cm | front_center=92.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:22] CAMERA | person_in_frame=True | face_in_frame=True | emotion=SAD | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:22] SONAR | front_left=81.0 cm | front_center=94.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:23] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:23] SONAR | front_left=81.0 cm | front_center=84.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:23] TRIGGER | emotion=HAPPY_3 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=1.00 | front_left=81.0 cm | front_center=84.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:24] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:24] SONAR | front_left=81.0 cm | front_center=88.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:25] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:25] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:26] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:26] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:27] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:27] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:28] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:28] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:29] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:29] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:30] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:30] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:31] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:31] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:32] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:32] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:33] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:33] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:34] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:34] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:35] TRIGGER | emotion=HAPPY_3 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=1.00 | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:35] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:35] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:36] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:36] SONAR | front_left=81.0 cm | front_center=88.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:37] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:37] SONAR | front_left=81.0 cm | front_center=90.0 cm | front_right=137.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:38] TRIGGER | emotion=HAPPY_3 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=1.00 | front_left=81.0 cm | front_center=92.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:38] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:38] SONAR | front_left=81.0 cm | front_center=92.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:39] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:39] SONAR | front_left=84.0 cm | front_center=93.0 cm | front_right=162.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:40] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:40] SONAR | front_left=86.0 cm | front_center=90.0 cm | front_right=174.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:41] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:41] SONAR | front_left=84.0 cm | front_center=104.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:42] STATE_CHANGE | INTERACT -> STOP | reason=near_obstacle
+[2026-08-05 20:57:42] TRIGGER | emotion=SURPRISE_3 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=NEUTRAL | interaction_will=0.89 | front_left=27.0 cm | front_center=39.0 cm | front_right=300.0 cm | back=300.0 cm | near=True | far=True
+[2026-08-05 20:57:42] STATE_CHANGE | STOP -> INTERACT | reason=stop_person_confirmed
+[2026-08-05 20:57:42] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:42] SONAR | front_left=46.0 cm | front_center=65.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:43] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:43] SONAR | front_left=47.0 cm | front_center=52.0 cm | front_right=95.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:44] CAMERA | person_in_frame=True | face_in_frame=True | emotion=NEUTRAL | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:44] SONAR | front_left=87.0 cm | front_center=92.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:45] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:45] SONAR | front_left=86.0 cm | front_center=108.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:46] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:46] SONAR | front_left=86.0 cm | front_center=92.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:47] TRIGGER | emotion=HAPPY_3 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=1.00 | front_left=86.0 cm | front_center=92.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:47] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:47] SONAR | front_left=85.0 cm | front_center=93.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:48] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:48] SONAR | front_left=87.0 cm | front_center=95.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:50] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:50] SONAR | front_left=86.0 cm | front_center=92.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:50] TRIGGER | emotion=HAPPY_3 | state=INTERACT | person_in_frame=True | face_in_frame=True | camera_emotion=HAPPY | interaction_will=1.00 | front_left=86.0 cm | front_center=92.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+[2026-08-05 20:57:51] CAMERA | person_in_frame=True | face_in_frame=True | emotion=HAPPY | face_x=0.5 | face_y=0.5
+[2026-08-05 20:57:51] SONAR | front_left=88.0 cm | front_center=111.0 cm | front_right=300.0 cm | back=300.0 cm | near=False | far=True
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

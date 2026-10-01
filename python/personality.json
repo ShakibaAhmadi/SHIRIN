@@ -1,0 +1,46 @@
+{
+    "_ABOUT_THE_TRAITS": {
+        "description": "These values act as multipliers (0.0 to 1.0) in the robot's Brain Process.",
+        "OPENNESS (O)": "Curiosity/Distraction. HIGH (0.9): Reacts to every little sound/movement. LOW (0.2): Hyper-focused, ignores background noise.",
+        "CONSCIENTIOUSNESS (C)": "Discipline/Predictability. HIGH (0.9): Moves smoothly, finishes animations. LOW (0.2): Erratic, twitchy, interrupts its own movements.",
+        "EXTRAVERSION (E)": "Energy/Sociability. HIGH (0.9): Fast motors, interacts from far away. LOW (0.2): Slow motors, needs humans to be very close to interact.",
+        "AGREEABLENESS (A)": "Friendliness/Empathy. HIGH (0.9): Default idle is happy, easily mirrors joy. LOW (0.2): Default is grumpy/neutral, hard to make smile.",
+        "NEUROTICISM (N)": "Anxiety/Sensitivity. HIGH (0.9): Large personal space (stops at 50cm), easily startled. LOW (0.2): Brave, lets humans get close (20cm), recovers fast."
+    },
+
+    "THE_ROCK": {"openness": 0.2, "conscientiousness": 0.2, "extraversion": 0.2, "agreeableness": 0.2, "neuroticism": 0.2},
+    "PARANOID_INTROVERT": {"openness": 0.2, "conscientiousness": 0.2, "extraversion": 0.2, "agreeableness": 0.2, "neuroticism": 0.9},
+    "PASSIVE_PEACEMAKER": {"openness": 0.2, "conscientiousness": 0.2, "extraversion": 0.2, "agreeableness": 0.9, "neuroticism": 0.2},
+    "ANXIOUS_PEACEMAKER": {"openness": 0.2, "conscientiousness": 0.2, "extraversion": 0.2, "agreeableness": 0.9, "neuroticism": 0.9},
+    "RECKLESS_EXTROVERT": {"openness": 0.2, "conscientiousness": 0.2, "extraversion": 0.9, "agreeableness": 0.2, "neuroticism": 0.2},
+    "PANICKED_EXTROVERT": {"openness": 0.2, "conscientiousness": 0.2, "extraversion": 0.9, "agreeableness": 0.2, "neuroticism": 0.9},
+    "FRIENDLY_FOOL": {"openness": 0.2, "conscientiousness": 0.2, "extraversion": 0.9, "agreeableness": 0.9, "neuroticism": 0.2},
+    "NEEDY_EXTROVERT": {"openness": 0.2, "conscientiousness": 0.2, "extraversion": 0.9, "agreeableness": 0.9, "neuroticism": 0.9},
+    
+    "COLD_CALCULATOR": {"openness": 0.2, "conscientiousness": 0.9, "extraversion": 0.2, "agreeableness": 0.2, "neuroticism": 0.2},
+    "NERVOUS_ACCOUNTANT": {"openness": 0.2, "conscientiousness": 0.9, "extraversion": 0.2, "agreeableness": 0.2, "neuroticism": 0.9},
+    "POLITE_WORKER": {"openness": 0.2, "conscientiousness": 0.9, "extraversion": 0.2, "agreeableness": 0.9, "neuroticism": 0.2},
+    "TIMID": {"openness": 0.2, "conscientiousness": 0.9, "extraversion": 0.2, "agreeableness": 0.9, "neuroticism": 0.9},
+    "AUTHORITARIAN": {"openness": 0.2, "conscientiousness": 0.9, "extraversion": 0.9, "agreeableness": 0.2, "neuroticism": 0.2},
+    "STRICT_WORRIER": {"openness": 0.2, "conscientiousness": 0.9, "extraversion": 0.9, "agreeableness": 0.2, "neuroticism": 0.9},
+    "CHARISMATIC_LEADER": {"openness": 0.2, "conscientiousness": 0.9, "extraversion": 0.9, "agreeableness": 0.9, "neuroticism": 0.2},
+    "MICROMANAGER": {"openness": 0.2, "conscientiousness": 0.9, "extraversion": 0.9, "agreeableness": 0.9, "neuroticism": 0.9},
+
+    "CHAOTIC_THINKER": {"openness": 0.9, "conscientiousness": 0.2, "extraversion": 0.2, "agreeableness": 0.2, "neuroticism": 0.2},
+    "TORTURED_ARTIST": {"openness": 0.9, "conscientiousness": 0.2, "extraversion": 0.2, "agreeableness": 0.2, "neuroticism": 0.9},
+    "GENTLE_DREAMER": {"openness": 0.9, "conscientiousness": 0.2, "extraversion": 0.2, "agreeableness": 0.9, "neuroticism": 0.2},
+    "ANXIOUS_DREAMER": {"openness": 0.9, "conscientiousness": 0.2, "extraversion": 0.2, "agreeableness": 0.9, "neuroticism": 0.9},
+    "MAD_SCIENTIST": {"openness": 0.9, "conscientiousness": 0.2, "extraversion": 0.9, "agreeableness": 0.2, "neuroticism": 0.2},
+    "MANIC_EXPLORER": {"openness": 0.9, "conscientiousness": 0.2, "extraversion": 0.9, "agreeableness": 0.2, "neuroticism": 0.9},
+    "BUBBLY": {"openness": 0.9, "conscientiousness": 0.2, "extraversion": 0.9, "agreeableness": 0.9, "neuroticism": 0.2},
+    "OVERWHELMED_PUPPY": {"openness": 0.9, "conscientiousness": 0.2, "extraversion": 0.9, "agreeableness": 0.9, "neuroticism": 0.9},
+
+    "FOCUSED_INNOVATOR": {"openness": 0.9, "conscientiousness": 0.9, "extraversion": 0.2, "agreeableness": 0.2, "neuroticism": 0.2},
+    "CAUTIOUS_INNOVATOR": {"openness": 0.9, "conscientiousness": 0.9, "extraversion": 0.2, "agreeableness": 0.2, "neuroticism": 0.9},
+    "HELPFUL_GUIDE": {"openness": 0.9, "conscientiousness": 0.9, "extraversion": 0.2, "agreeableness": 0.9, "neuroticism": 0.2},
+    "WORRIED_GUIDE": {"openness": 0.9, "conscientiousness": 0.9, "extraversion": 0.2, "agreeableness": 0.9, "neuroticism": 0.9},
+    "VISIONARY": {"openness": 0.9, "conscientiousness": 0.9, "extraversion": 0.9, "agreeableness": 0.2, "neuroticism": 0.2},
+    "VIGILANT_LEADER": {"openness": 0.9, "conscientiousness": 0.9, "extraversion": 0.9, "agreeableness": 0.2, "neuroticism": 0.9},
+    "THE_PROTAGONIST": {"openness": 0.9, "conscientiousness": 0.9, "extraversion": 0.9, "agreeableness": 0.9, "neuroticism": 0.2},
+    "THE_OVERACHIEVER": {"openness": 0.9, "conscientiousness": 0.9, "extraversion": 0.9, "agreeableness": 0.9, "neuroticism": 0.9}
+}
